@@ -1,0 +1,13 @@
+- title: Scoreboard.vote
+  image: '../src/assets/images/scoreboard.jpg'
+  link: https://scoreboard.vote/auth/landing-page
+  description: A reddit like application where users can discuss anything.
+- title: Trademate Sports
+  image: '../src/assets/images/trademate.png'
+  link: https://tradematesports.com
+  description: Your go to place to find edges on bookies
+- title: Vigit
+  image: '../src/assets/images/vigit.png'
+  link: https://vigitapp.com
+  description: Social Sports Betting
+
