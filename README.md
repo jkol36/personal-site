@@ -1,4 +1,4 @@
-# Smakosh.com
+# jonkolman.com
 
 My personal website
 
