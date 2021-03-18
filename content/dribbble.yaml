@@ -11,3 +11,8 @@
   link: https://vigitapp.com
   description: Social Sports Betting
 
+- title: Outsmart
+  image: '../src/assets/images/outsmart.png'
+  link: 'http://54.209.199.14:3000/'
+  description: 'Find places to live that match your preferences!'
+
