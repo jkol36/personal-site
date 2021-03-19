@@ -16,3 +16,7 @@
   link: 'http://54.209.199.14:3000/'
   description: 'Find places to live that match your preferences!'
 
+- title: Eday
+  image: '../src/assets/images/eday.png'
+  link: 'https://edayapp.com'
+  description: 'A NEW STRATEGY FOR TODAY’S CAMPAIGNS'
