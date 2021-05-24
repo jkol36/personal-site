@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Container, Subtitle } from 'components/common'
-import FreelanceProjects from './freelance'
 import SideProjects from './SideProjects'
+import FreelanceProjects from './Freelance'
 
 export const imageFields = graphql`
   fragment imageFields on ImageSharp {

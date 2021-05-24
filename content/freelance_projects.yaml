@@ -20,3 +20,8 @@
   image: '../src/assets/images/eday.png'
   link: 'https://edayapp.com'
   description: 'A NEW STRATEGY FOR TODAY’S CAMPAIGNS'
+
+- title: ShipCalm
+  image: '../src/assets/images/shipcalm.png'
+  link: 'https://shipcalm.com'
+  description: 'Your third party logistics partner'

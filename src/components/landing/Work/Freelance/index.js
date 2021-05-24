@@ -1,11 +1,11 @@
 import React from 'react'
-import { Project, DribbbleIcon } from 'components/common'
+import { Project } from 'components/common'
 import { useStaticQuery, graphql } from 'gatsby'
 
 export default () => {
-  const { shots } = useStaticQuery(graphql`
+  const { freelanceProjects } = useStaticQuery(graphql`
     query {
-      shots: allDribbbleYaml {
+      freelanceProjects: allFreelanceProjectsYaml {
         edges {
           node {
             id
@@ -24,12 +24,5 @@ export default () => {
       }
     }
   `)
-  return (
-    <Project
-      title="Freelance Projects"
-      projects={shots}
-      link="https://github.com/jkol36"
-      color="#ea4c89"
-    />
-  )
+  return <Project title="Freelance Projects" projects={freelanceProjects} side />
 }
