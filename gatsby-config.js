@@ -8,11 +8,11 @@ module.exports = {
   siteMetadata: {
     siteUrl: 'https://jonkolman.com',
     rssMetadata: {
-      site_url: 'https://smakosh.com',
+      site_url: 'https://jonkolman.com',
       feed_url: `${config.url}${config.siteRss}`,
       title: 'Jon Kolman | Blog',
       description: config.defaultDescription,
-      image_url: 'https://smakosh.com/static/favicon/logo-512.png',
+      image_url: '',
       author: config.author,
       copyright: `${config.defaultTitle} © ${new Date().getFullYear()}`,
     },
@@ -98,7 +98,7 @@ module.exports = {
 							}
 						}`,
             output: config.siteRss,
-            title: 'Smakosh | Blog',
+            title: 'jonkolman.com | Blog',
           },
         ],
       },

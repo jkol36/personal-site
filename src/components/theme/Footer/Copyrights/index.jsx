@@ -14,7 +14,7 @@ export default () => {
       <Links>
         ©{' '}
         <Item as={Link} to="/">
-          Smakosh
+          Jkol36
         </Item>{' '}
         2016-{`${new Date().getFullYear()} `}
         Built with

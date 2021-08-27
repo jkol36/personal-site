@@ -25,3 +25,8 @@
   image: '../src/assets/images/shipcalm.png'
   link: 'https://shipcalm.com'
   description: 'Your third party logistics partner'
+
+- title: vt.team
+  image: '../src/assets/images/vt.team.png'
+  link: 'vt.team'
+  description: 'Here at VT.Team, we provide a comprehensive end to end project and support UC/CX service based on Avaya and Amazon Connect technologies.'

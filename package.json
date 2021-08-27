@@ -1,8 +1,8 @@
 {
-  "name": "smakosh.com",
+  "name": "Jon Kolman",
   "description": "My personal website",
   "version": "1.0.0",
-  "author": "Ismail Ghallou <ismai23l@hotmail.com>",
+  "author": "Jon Kolman, jonathankolman@gmail.com",
   "dependencies": {
     "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.10.0",
@@ -50,13 +50,7 @@
     "styled-system": "^5.1.2",
     "yup": "^0.27.0"
   },
-  "keywords": [
-    "smakosh",
-    "personal",
-    "website",
-    "blog",
-    "gatsby"
-  ],
+  
   "license": "MIT",
   "main": "n/a",
   "scripts": {
