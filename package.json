@@ -9,7 +9,7 @@
     "disqus-react": "^1.0.5",
     "dotenv": "^8.2.0",
     "formik": "^2.0.4",
-    "gatsby": "^2.17.15",
+    "gatsby": "^3.12.1",
     "gatsby-image": "^2.2.32",
     "gatsby-paginate": "^1.1.1",
     "gatsby-plugin-canonical-urls": "^2.1.14",
