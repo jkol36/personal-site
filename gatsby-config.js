@@ -1,8 +1,10 @@
 const config = require('./src/data/config')
 
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env`,
 })
+
+console.log(process.env.GITHUB_TOKEN)
 
 module.exports = {
   siteMetadata: {
@@ -23,6 +25,19 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sitemap',
     'gatsby-transformer-yaml',
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'GitHub',
+        fieldName: 'github',
+        url: 'https://api.github.com/graphql',
+        headers: {
+          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+        },
+        fetchOptions: {},
+      },
+    },
+    
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
