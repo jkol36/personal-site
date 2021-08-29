@@ -4,12 +4,13 @@
   "version": "1.0.0",
   "author": "Jon Kolman, jonathankolman@gmail.com",
   "dependencies": {
+    "assert": "^2.0.0",
     "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.10.0",
     "disqus-react": "^1.0.5",
     "dotenv": "^8.2.0",
     "formik": "^2.0.4",
-    "gatsby": "^3.12.1",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.2.32",
     "gatsby-paginate": "^1.1.1",
     "gatsby-plugin-canonical-urls": "^2.1.14",
@@ -50,7 +51,6 @@
     "styled-system": "^5.1.2",
     "yup": "^0.27.0"
   },
-  
   "license": "MIT",
   "main": "n/a",
   "scripts": {
