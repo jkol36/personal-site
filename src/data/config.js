@@ -14,7 +14,7 @@ module.exports = {
     youtube: 'https://www.youtube.com/user/jkol36',
     google: 'https://plus.google.com/u/0/',
   },
-  googleAnalyticsID: '264972526',
+  googleAnalyticsID: 'G-NTVE5GXZXZ',
   themeColor: '#fff',
   backgroundColor: '#fff',
   siteRss: '/rss.xml',
@@ -23,14 +23,13 @@ module.exports = {
     twitter: '@jkol36',
   },
   address: {
-    city: 'Errachidia',
-    region: 'Drâa-Tafilalet',
-    country: 'Morocco',
-    zipCode: '52000',
+    city: 'Philadelphia',
+    country: 'United States',
+    zipCode: '19104',
   },
   contact: {
-    email: 'ismai23l@hotmail.com',
-    phone: '+212-663-53-27-61',
+    email: 'jonathankolman@gmail.com',
+    phone: '+2673105479',
   },
   foundingDate: '2016',
 }

@@ -98,14 +98,14 @@ export const SEO = ({
         content={cover ? `${url}${cover}` : `${url}${Thumbnail}`}
       />
 
-      <meta property="og:url" content={`${url}${location}/?ref=smakosh.com`} />
+      <meta property="og:url" content={`${url}${location}/?ref=jonkolman.com`} />
       <meta
         property="og:type"
         content={type === 'NewsArticle' ? 'NewsArticle' : 'website'}
       />
       <meta
         property="og:title"
-        content={title ? `Smakosh | ${title}` : defaultTitle}
+        content={title ? `Jon Kolman | ${title}` : defaultTitle}
       />
       <meta
         property="og:description"
