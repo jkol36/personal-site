@@ -31,5 +31,5 @@ module.exports = {
     email: 'jonathankolman@gmail.com',
     phone: '+2673105479',
   },
-  foundingDate: '2016',
+  foundingDate: '2020',
 }

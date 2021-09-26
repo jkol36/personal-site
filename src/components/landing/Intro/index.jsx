@@ -1,10 +1,37 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { Link } from 'gatsby'
+import ReactGA from 'react-ga'
 import { SmallerContainer } from 'components/common'
 import { ThemeContext } from 'providers/ThemeProvider'
 import { MagicalButton, Wrapper, Flex } from './styles'
 
 export const Intro = () => {
+  useEffect(() => {
+    console.log('running')
+    ReactGA.event({
+  category: 'User',
+  action: 'Created an Account'
+  });
+
+  ReactGA.event({
+    category: 'Social',
+    action: 'Rated an App',
+    value: 3
+  });
+
+  ReactGA.event({
+    category: 'Editing',
+    action: 'Deleted Component',
+    label: 'Game Widget'
+  });
+
+  ReactGA.event({
+    category: 'Promotion',
+    action: 'Displayed Promotional Widget',
+    label: 'Homepage Thing',
+    nonInteraction: true
+  });
+  })
   const { theme } = useContext(ThemeContext)
   return (
     <Wrapper theme={theme} as={SmallerContainer}>

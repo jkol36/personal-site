@@ -31,9 +31,7 @@ export const Skills = () => {
             <Skill key={node.id} {...node} />
           ))}
         </Flex>
-        <Tech theme={theme}>
-          <Link to="/the-tech-tools-I-use">See the tech tools I use</Link>
-        </Tech>
+        <Tech theme={theme}/>
       </Container>
     </Wrapper>
   )

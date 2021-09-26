@@ -14,7 +14,14 @@ import ReactGA from 'react-ga'
 
 const trackingId = 'G-NTVE5GXZXZ'
 ReactGA.initialize(trackingId);
+ReactGA.pageview('landing')
+console.log(ReactGA)
+const event = ReactGA.event({
+  category: 'User',
+  viewed_landing: true
+});
 
+console.log('event'. event)
 
 export default () => (
   <Layout>
